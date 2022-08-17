@@ -100,17 +100,38 @@ hr {
 input, select {
     vertical-align:middle;
 }
+    
+    
+    
+----------------------------------------------------------------------------
+
+
+
+
+
 .title{
     color:white;
     font-size: 50px;
+    
+    
+.all.main{
+    
+    
+    
+    }    
+
+    
+
 }
 .face{
     height:400px;
     width: 400px;
     border-radius: 200px;
-    margin-top: 100px;
-    margin-left: 125px;
-    margin-right:auto;
+    
+    /* margin-top: 100px;*/
+    
+    
+    
     
 }
 .maintitle{
@@ -121,5 +142,35 @@ input, select {
 .bio{
     font-size: 30px;
 }
+
+.word.main{
+   
+}
+
+.face{
+    height:400px;
+    width: 400px;
+    border-radius: 200px;
+    /*margin-top: 100px;*/
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
