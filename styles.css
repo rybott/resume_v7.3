@@ -105,72 +105,90 @@ input, select {
     
 ----------------------------------------------------------------------------
 
-
-
-
-
-.title{
-    color:white;
-    font-size: 50px;
-    
-    
-.all.main{
-    
-    
-    
-    }    
-
-    
+section{
 
 }
+div{}
+
+
+.title1{
+    display:none;}
+
+.title2{
+    display:none;}
+
+.filler{
+    height: 50px;
+    color:#1F1F1F;
+    background-color: #1f1f1f;
+}
+
 .face{
     height:400px;
     width: 400px;
-    border-radius: 200px;
+    border-radius: 200px;}
     
-    /* margin-top: 100px;*/
-    
+
+
+.parent{
+    display: flex;
+    max-width: 800px;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: space-between;
     
     
     
 }
-.maintitle{
+
+
+
+.title3{
+    font-size: 30px;
     color:white;
-    font-size: 70px;
+    
 }
 
 .bio{
-    font-size: 30px;
+    font-size: 20px;
+    color:white;
 }
 
-.word.main{
-   
+
+
+@media only screen and (max-width: 768px){
+    .parent{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        flex-shrink: 1
+        
+    }
+    
+    
 }
 
-.face{
-    height:400px;
+
+
+
+ @media only screen and (min-width: 768px){
+    
+    .title1{
     width: 400px;
-    border-radius: 200px;
-    /*margin-top: 100px;*/
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    text-align: left; 
+    display:block;
+    background-color: #333333;
+    color:white;
+    font-size: 20px;}
+     
+    .title2{
+    float: right;
+    text-align: right; 
+    display:block;
+    background-color: #333333;
+    color:white;
+    width: 100%;
+    font-size: 15px;}
+     
+}
+ 
