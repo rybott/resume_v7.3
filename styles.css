@@ -239,7 +239,8 @@ justify-content: space-evenly;}
     flex-shrink:1;
 
 .workwordsflex1{
-    max-width: 350px;}
+    max-width: 350px;
+    margin-left:20%}
 
 .workwordstitle   {font-size:30px;}
 .workwordslocal    {font-size:15;}
@@ -256,7 +257,7 @@ justify-content: space-evenly;}
 .datewords{
     display:inline-flex;
     flex-direction: row;
-    min-width: 60%;
+    min-width: 50%;
     justify-content: space-between;
     padding-top: 40px;
     flex-grow: 1
@@ -264,6 +265,10 @@ justify-content: space-evenly;}
 
 .worktitle{
     font-size: 50px;}
+.worktitle1{
+    font-size: 50px;
+    color: #1f1f1f;
+}
 
 
 
@@ -304,8 +309,10 @@ justify-content: space-evenly;}
     justify-content: space-evenly;}
     
     .flexdate1{
-        margin-right: 5%;
-    margin-left:5%}
+        margin-right: 0%;
+        font-size: 15px;
+        min-width: 20%;
+        margin-left:0%}
 
                                          }
 
