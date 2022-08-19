@@ -184,7 +184,7 @@ justify-content: space-evenly;}
     
 
 
-/*---------------------------Education----------------*/
+/*---------------------------Education attempt one----------------
 
 .allgridresume{
     padding-left:12%;
@@ -219,15 +219,61 @@ justify-content: space-evenly;}
     flex-direction:column;
     max-width: 350px; 
     min-height: 900px;
-    justify-content: space-between}
+    justify-content: space-between}  */
 
 
+/*-------------Attempt 2 at the resume section--------*/
 
+.flexresume1{
+    color:white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
 
+.worktitle{
+    font-size: 50px;
+    
+}
 
+.flexdate1{
+    margin-left: 20%;
+    font-size: 30px;
+    
+}
 
+.workwordsflex1{
+    max-width: 350px; 
+}
+.workwordstitle   {font-size:30px;}
+.workwordslocal    {font-size:15;}
+.workwordsdescript   {font-size:20px;}
 
+.flexresume2{
+    color:white;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 30px;
+    justify-content: space-between;}
 
+.worktitle{
+    font-size: 50px;}
+
+.flexdate1{
+    margin-left: 20%;
+    font-size: 25px;}
+
+.workwordsflex1{
+    max-width: 350px;}
+.workwordstitle   {font-size:30px;}
+.workwordslocal    {font-size:15;}
+.workwordsdescript   {font-size:20px;}
+
+.empty1{
+    font-size:50px;
+    color:#1f1f1f;
+    
+}
 
 
 
