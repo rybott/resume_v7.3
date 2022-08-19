@@ -167,12 +167,12 @@ h2{}
 /* ---------------------------contact section-----------------------------*/
 
 .teleemail{
-    font-size:30px;
-    }
-
+    font-size:30px;}
 .numadd{
-   font-size:20px;
-}
+   font-size:20px;}
+
+
+
 
 .parentcon{
     border: 2px solid #d3d3d3;
@@ -180,18 +180,50 @@ h2{}
     display: flex;
     flex-shrink: 1;
     text-align: center;
-    justify-content: space-evenly;
+justify-content: space-evenly;}
     
-}
+
 
 /*---------------------------Education----------------*/
 
-.parentWork{
+.allgridresume{
+    padding-left:12%;
+    padding-right:14%;
     color:white;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: 100px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: auto;
+    border: 2px solid yellow;}
+
+.worktitle    {font-size:50px;padding: 40px;}
+
+
+.workwordstitle   {font-size:30px;}
+
+.workwordslocal    {font-size:15;}
+
+.workwordsdescript   {font-size:20px;}
+
+.workwordsflex{
+    display:flex;
+    flex-direction:column;
+    max-width: 350px; 
+    min-height: 1000px;
+    justify-content: space-evenly}
+.flexdate{
     
-}
+    padding-left: 65%;
+    font-size: 30px;
+    display:flex;
+    flex-direction:column;
+    max-width: 350px; 
+    min-height: 900px;
+    justify-content: space-between}
+
+
+
+
 
 
 
