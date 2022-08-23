@@ -367,6 +367,11 @@ hr{
     height: 10000px;
 }
 
+.theend{
+    color:white;
+    margin: 0 auto;
+    text-align: center;
+}
 
 
 /* ------------change from large to small screen section ---------------------------------*/
