@@ -406,4 +406,19 @@ justify-content: space-evenly;}
      .spaces24{display:none}
      .spaces23{display: block}
                                            }
+
+
+
+
+
+/*-----For Seperate pages-------*/
+
+.bodyq{
+    display: flex;
+    flex-shrink: 1;
+    background-color: black;
+    max-width: 1500px;
+    max-height: 1100px;}
+
+
  
