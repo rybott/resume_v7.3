@@ -256,6 +256,17 @@ justify-content: space-evenly;}
     color: #1f1f1f;
     font-size: 49px;}
 
+/*-------------------Service Section-------------------------------*/
+
+
+.largedug{
+    display: flex;
+    justify-content: center;
+}
+.largedugs{   
+    width: 100%;
+    height: auto;}
+
 
 
 
@@ -268,8 +279,7 @@ justify-content: space-evenly;}
         flex-direction: column;
         flex-shrink: 1}  
     .top{
-        width: 90%;
-    }
+        width: 90%;}
                                          }
    
     
@@ -318,6 +328,13 @@ justify-content: space-evenly;}
     .spaces22{display:none}
     .spaces23{display:none}
     .spaces24{display:block}
+    
+    .largedugs{
+        width: 370px;
+        height:auto;
+        
+    
+    }
                                         }
 
 
