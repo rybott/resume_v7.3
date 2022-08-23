@@ -310,6 +310,62 @@ justify-content: space-evenly;}
 
 /*------------Documentation-------------------*/
 
+.icon{
+    max-width: 300px;
+    max-height: 300px;}
+
+.docsections{
+    padding-top: 40px;
+    display: flex;
+    flex-direction: row;
+    flex-shrink: 1;
+    justify-content: space-around;}
+
+.docname{
+    color:white;
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 40px;
+    padding-top: 20px}
+
+.docname1{
+    color:white;
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 0px;
+    padding-top: 20px}
+hr{
+    color: solid white;
+    width: 85%;
+    height: 2px;}
+
+/*-----------Footer--------------------------*/
+
+.footer{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    justify-content: space-evenly;
+    padding-top: 40px;
+    text-align: right;
+    padding-bottom: 20px;}
+
+.moreinfo{
+    
+}
+
+.phone1{
+    
+}
+
+.phone2{
+    font-size: 25px;
+}
+
+.morespace{
+    height: 10000px;
+}
 
 
 
@@ -323,6 +379,33 @@ justify-content: space-evenly;}
         flex-shrink: 1}  
     .top{
         width: 90%;}
+    
+    .icon{
+        max-width: 300 px;
+        max-height: 300 px;}
+    
+    .docsections{
+    margin-left: 9%;
+    margin-right: 9%;
+    flex-direction: column;
+    flex-shrink: 1;
+    padding: 40px;
+    justify-content: space-evenly;
+    max-height: 4000px; }
+    
+    .docname{
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 40px;
+    padding-top: 20px;
+    }
+    
+    .docname1{
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 0px;
+    padding-top: 20px;
+    }
                                          }
    
     
@@ -346,9 +429,31 @@ justify-content: space-evenly;}
     .datewords{
         width:350px;}
     .flexresume2{
-        padding-bottom: 15px;
-    }
-
+        padding-bottom: 15px;}
+    
+    .footer{
+    color: white;
+    font-size: 15px;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+    padding-bottom: 50px;
+    padding-top: 5px;}
+    
+    .phone2{
+    font-size: 10px;}
+    
+     .docsections{
+    margin-left: 0;
+    margin-right: 0%;}
+    
+    .icon{
+    max-width: 200 px;
+    max-height: 200 px;}
+    
+    
+    
+    
                                        }
 
 @media only screen and (max-width:768px){
@@ -413,12 +518,6 @@ justify-content: space-evenly;}
 
 /*-----For Seperate pages-------*/
 
-.bodyq{
-    display: flex;
-    flex-shrink: 1;
-    background-color: black;
-    max-width: 1500px;
-    max-height: 1100px;}
 
 
  
