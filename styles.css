@@ -120,7 +120,7 @@ h2{}
 
 /* ---------------------------Top Intro Section----------------------------------------*/
 
-.top{background-color: #333333;}
+.top{background-color: #333333; width: 99%;}
 
 .title1{
     display:none;
@@ -184,45 +184,7 @@ justify-content: space-evenly;}
     
 
 
-/*---------------------------Education attempt one----------------
-
-.allgridresume{
-    padding-left:12%;
-    padding-right:14%;
-    color:white;
-    display: grid;
-    grid-auto-rows: 100px;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-auto-rows: auto;
-    border: 2px solid yellow;}
-
-.worktitle    {font-size:50px;padding: 40px;}
-
-
-.workwordstitle   {font-size:30px;}
-
-.workwordslocal    {font-size:15;}
-
-.workwordsdescript   {font-size:20px;}
-
-.workwordsflex{
-    display:flex;
-    flex-direction:column;
-    max-width: 350px; 
-    min-height: 1000px;
-    justify-content: space-evenly}
-.flexdate{
-    
-    padding-left: 65%;
-    font-size: 30px;
-    display:flex;
-    flex-direction:column;
-    max-width: 350px; 
-    min-height: 900px;
-    justify-content: space-between}  */
-
-
-/*-------------Attempt 2 at the resume section--------*/
+/*-------------Attempt 3 at the resume section--------*/
 
 .worktitle{
     font-size: 50px;}
@@ -257,6 +219,15 @@ justify-content: space-evenly;}
     flex-grow: 1
     padding-left:20%}
 
+.datewords1{
+    display:inline-flex;
+    flex-direction: row;
+    width: 500px;
+    justify-content: space-between;
+    padding-top: 40px;
+    flex-grow: 1
+    padding-left:20%}
+
 .worktitle{
     font-size: 50px;
     padding-top:40px;}
@@ -276,6 +247,10 @@ justify-content: space-evenly;}
 .empty1{
     font-size:50px;
     color:#1f1f1f;}
+.spaces22{
+    display: block;
+    color: #1f1f1f;
+}
 
 
 
@@ -288,6 +263,9 @@ justify-content: space-evenly;}
         justify-content: center;
         flex-direction: column;
         flex-shrink: 1}  
+    .top{
+        width: 90%;
+    }
                                          }
    
     
@@ -332,6 +310,8 @@ justify-content: space-evenly;}
     justify-content: space-between;
     padding-top: 0px;
     flex-shrink: 1}
+    
+    .spaces22{display:none}
                                         }
 
 
@@ -353,5 +333,9 @@ justify-content: space-evenly;}
     color:white;
     width: 100%;
     font-size: 15px;}
+     
+    .flexresume2{
+    justify-content: space-evenly;
+     }
                                            }
  
