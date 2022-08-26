@@ -105,6 +105,7 @@ input, select {
     
 ----------------------------------------------------------------------------
 
+
 section{}
 div{}
 h2{}
@@ -120,7 +121,7 @@ h2{}
 
 /* ---------------------------Top Intro Section----------------------------------------*/
 
-.top{background-color: #333333; width: 99%;}
+.top{background-color: #333333; width: 100%;}
 
 .title1{
     display:none;
@@ -383,7 +384,7 @@ hr{
         flex-direction: column;
         flex-shrink: 1}  
     .top{
-        width: 90%;}
+        width: 100%;}
     
     .icon{
         max-width: 300 px;
@@ -519,7 +520,9 @@ hr{
 
 
 
-
+.everything1{
+    margin: 2.5%;
+}
 
 /*-----For Seperate pages-------*/
 
