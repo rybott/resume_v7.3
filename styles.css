@@ -5,7 +5,7 @@ Last Updated: 2010-09-17
 Author: Richard Clark - http://richclarkdesign.com
 Twitter: @rich_clark
 */
-{
+{ 
 html, body, div, span, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 abbr, address, cite, code,
@@ -316,11 +316,12 @@ justify-content: space-evenly;}
     max-height: 300px;}
 
 .docsections{
-    padding-top: 40px;
+    margin: 5%;
+    padding-top: 100px;
     display: flex;
     flex-direction: row;
     flex-shrink: 1;
-    justify-content: space-around;}
+    justify-content: space-evenly;}
 
 .docname{
     color:white;
@@ -385,6 +386,11 @@ hr{
         flex-shrink: 1}  
     .top{
         width: 100%;}
+    
+    .docimg{
+        max-width: 300px;
+        margin: 0 auto;
+    }
     
     .icon{
         max-width: 300 px;
