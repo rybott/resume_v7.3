@@ -1,108 +1,4 @@
-/*
-html5doctor.com Reset Stylesheet
-v1.6.1
-Last Updated: 2010-09-17
-Author: Richard Clark - http://richclarkdesign.com
-Twitter: @rich_clark
-*/
-{ 
-html, body, div, span, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-abbr, address, cite, code,
-del, dfn, em, img, ins, kbd, q, samp,
-small, strong, sub, sup, var,
-b, i,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section, summary,
-time, mark, audio, video {
-    margin:0;
-    padding:0;
-    border:0;
-    outline:0;
-    font-size:100%;
-    vertical-align:baseline;
-    background:transparent;
-}
-
-body {
-    line-height:1;
-}
-
-article,aside,details,figcaption,figure,
-footer,header,hgroup,menu,nav,section {
-    display:block;
-}
-
-nav ul {
-    list-style:none;
-}
-
-blockquote, q {
-    quotes:none;
-}
-
-blockquote:before, blockquote:after,
-q:before, q:after {
-    content:'';
-    content:none;
-}
-
-a {
-    margin:0;
-    padding:0;
-    font-size:100%;
-    vertical-align:baseline;
-    background:transparent;
-}
-
-/* change colours to suit your needs */
-ins {
-    background-color:#ff9;
-    color:#000;
-    text-decoration:none;
-}
-
-/* change colours to suit your needs */
-mark {
-    background-color:#ff9;
-    color:#000;
-    font-style:italic;
-    font-weight:bold;
-}
-
-del {
-    text-decoration: line-through;
-}
-
-abbr[title], dfn[title] {
-    border-bottom:1px dotted;
-    cursor:help;
-}
-
-table {
-    border-collapse:collapse;
-    border-spacing:0;
-}
-
-/* change border colour to suit your needs */
-hr {
-    display:block;
-    height:1px;
-    border:0;  
-    border-top:1px solid #cccccc;
-    margin:1em 0;
-    padding:0;
-}
-
-input, select {
-    vertical-align:middle;
-}
-    
-}
-    
+  
 ----------------------------------------------------------------------------
 
 
@@ -112,7 +8,6 @@ h2{}
 
 .header{
     color:white;
-    background-color: #333333;
     text-align:center;
     font-size:50px;
     margin-top: 40px;
@@ -121,28 +16,154 @@ h2{}
 
 /* ---------------------------Top Intro Section----------------------------------------*/
 
-.top{background-color: #333333; width: 100%;}
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;}
 
-.title1{
-    display:none;
+.navbar{
+    color: white;
+    display: flex;
+    text-decoration: none !important;
+    justify-content:space-between;
+    padding-bottom: 30px;
+}
+
+.siempre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;}
+@media only screen and (max-width: 768px){
+    .siempre{
+        display: none;}
 }
 
 
-.title2{
-    display:none;
+
+.logo{
+    height: 70px;
+    line-height: 50px;
+    vertical-align: middle;
+    padding border-bottom: 50px;
+    
 }
+
+
+
+.logo3{
+    height: 40px;
+}
+
+
+
+
+
+
+
+/* Dropdown Button */
+.dropbtn {
+  background-color: inherit;
+  color: inherit;
+  padding: 16px;
+  padding-top: 1px;
+  padding-bottom: 0;
+  font-size: 12px;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  padding: 5px;
+  padding-right: 30px;
+  /*background-color: #242424;*/
+  position: relative;
+  display: inline-block;
+  border-collapse: separate; 
+  perspective: 1%;
+  border-radius: 5px;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: inherit;}
+
+
+
+
+a{  color: white;
+    text-decoration: none;}
+
+.logo{
+    
+    border-style: none;
+}
+
+.logo2{
+   
+    border-style: none;
+}
+
+
 
 
 .filler{
-    height: 50px;
+    height: 700px;
     color:#1F1F1F;
-    background-color: #1f1f1f;}
+    align-content: flex-end;
+    }
 
 .face{
     height:400px;
     width: 400px;
-    border-radius: 200px;}
-    
+    border-radius: 200px;
+    padding-right:20px;}
+
+@media only screen and (max-width: 768px){
+    .face{
+        height:350px;
+        width: 350px;}}
+@media only screen and (max-width: 400px){
+    .face{
+        height:325px;
+        width: 325px;}}
+
+
+  .header2{
+      display: inline-flex;
+      
+      color:white;
+      background-color: #0f0f0f;
+      font-size:50px;
+      margin-top: 2%;}
+.header3{
+    text-align: center;
+    justify-content: center;
+    border-bottom: white; 
+    border-width: medium;}
 
 
 .parent{
@@ -150,14 +171,16 @@ h2{}
     max-width: 800px;
     align-items: center;
     margin: 0 auto;
-    justify-content: space-between;}
+    justify-content: center;
+    flex-wrap: wrap;
+    max-height: 100%;
+    padding-bottom: 4.5%}
 
 
 
 .title3{
     font-size: 45px;
     color:white;
-    maring-top: 10px;
     margin-bottom: 0px;}
 
 .bio{
@@ -165,27 +188,162 @@ h2{}
     margin-top: 10px;
     color:white;}
 
-/* ---------------------------contact section-----------------------------*/
+@media only screen and (max-width: 768px){
+    .face{
+        padding-right: 0px;}}
+    
+    .title4{
+        color: white;
+        text-align: center;
+        padding-bottom: 3.5%}
+    
+.title5{
+        color: white;
+        font-size: 27px;
+        border-style: solid;
+        border-color: #242424;
+        background-color: #FD2D00;
+        border-width: 1px;
+        border-bottom-width: thick;
+        padding: 1%;
+        margin-left: 25%;
+        margin-right: 25%;
+        text-align: center;}
+@media only screen and (max-width: 400px){
+    font-size: 23px;
+    Margin-left: .5%;
+    margin-right: .5%;
+}
 
-.teleemail{
-    font-size:30px;}
-.numadd{
-   font-size:20px;}
 
-
-
-
-.parentcon{
-    border: 2px solid #d3d3d3;
-    color:white;
-    display: flex;
-    flex-shrink: 1;
+.section2{
+    background-color: #0f0f0f;
     text-align: center;
-justify-content: space-evenly;}
+}
+  
+
+
+.footer{
+    color: white;
+    display: flex;
+    flex-basis: auto;
+    justify-content: space-evenly;
+    padding: .5%;
+    background-color: black;
+}
+
+
+@media only screen and (max-width: 550px){
+    .footer{
+        font-size: 10px;
+    }}
+@media only screen and (max-width: 400px){
+    .footer{
+        font-size: 7px;
+    }}
+
+
+
+.Contactstuff{
+    display: flex;
+    color: white;
+    justify-content: center;
+    flex-shrink: 1;
+    flex-wrap: wrap;
+    border-style: solid;
+    border-color: #242424;
+    border-width: 1px;
+    font-size: 24px;} 
+.Contact{
+    text-align: center;
+    width:35%;
+    min-height: 120px;
+    border-style: solid;
+    border-color: black;
+    background-color: #FD2D00;
+    border-width: medium;
+}
+.Socials{
+    text-align: center;
+    width: 35%;
+    border-style: solid;
+    border-color: black;
+    background-color: #70E7D1;
+    border-width: medium;}
+
+@media only screen and (max-width: 710px){
+    .Contactstuff{
+        font-size: 18px;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+
+
+
+
+.Contactstuff1{
+    display: grid;
+    grid-template-columns: 30% 30%;
+    align-content: center;
+    color: white;
+    border-style: solid;
+    border-color: #242424;
+    border-width: 1px;
+    font-size: 24px;} 
+.Contact1{
     
 
+    border-style: solid;
+    border-color: black;
+    background-color: #FD2D00;
+    border-width: medium;
+}
+.Socials1{
+    
+    border-style: solid;
+    border-color: black;
+    background-color: #70E7D1;
+    border-width: medium;}
 
-/*-------------Attempt 3 at the resume section--------*/
+@media only screen and (max-width: 710px){
+    .Contactstuff1{
+        font-size: 18px;
+        
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+p{margin: .5%;}
+
+/*_______________________________________________________*/
+
+
+
 
 .worktitle{
     font-size: 50px;}
@@ -203,13 +361,17 @@ justify-content: space-evenly;}
 .workwordsdescript   {font-size:20px;}
 
 .flexresume2{
-    color:white;
+    color: white;
     display: flex;
     flex-direction: row;
     padding-bottom: 30px;
-    justify-content: space-between;
-    width: 100%;
-    flex-shrink: 1}
+    justify-content: space-evenly;
+    flex-shrink: 1
+}
+
+
+
+
 
 .datewords{
     display:inline-flex;
@@ -234,7 +396,7 @@ justify-content: space-evenly;}
     padding-top:40px;}
 .worktitle1{
     font-size: 50px;
-    color: #1f1f1f;}
+    color: #242424;}
 
 
 
@@ -246,19 +408,146 @@ justify-content: space-evenly;}
 
 .empty1{
     font-size:50px;
-    color:#1f1f1f;}
+    color:#242424;}
 .spaces22{
     display: block;
-    color: #1f1f1f;}
+    color: #242424;}
 .spaces23{
     display:block;
     font-size: 49px;}
 .flexdate2{
-    color: #1f1f1f;
+    color: #242424;
     font-size: 49px;}
 
-/*-------------------Service Section-------------------------------*/
 
+
+
+
+
+@media only screen and (max-width: 768px){
+    
+    .docsections{
+    margin-left: 9%;
+    margin-right: 9%;
+    flex-direction: column;
+    flex-shrink: 1;
+    padding: 40px;
+    justify-content: space-evenly;
+    max-height: 4000px; }
+    
+    .docname{
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 40px;
+    padding-top: 20px;
+    }
+    
+    .docname1{
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 0px;
+    padding-top: 20px;
+    }
+                                         }
+   
+    
+
+
+@media only screen and (max-width: 450px){
+    .parentcon{
+    border: 2px solid #242424;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 1;
+    text-align: center;
+    justify-content: space-evenly;}
+    
+    .flexdate1{
+        margin-right: 0%;
+        font-size: 15px;
+        min-width: 20%;
+        margin-left:0%}
+    .datewords{
+        width:350px;}
+    .flexresume2{
+        padding-bottom: 15px;}
+    
+    
+    .phone2{
+    font-size: 10px;}
+    
+     .docsections{
+    margin-left: 0;
+         margin-right: 0%;}}
+    
+    
+    
+                                       
+@media only screen and (max-width:768px){
+    .flexresume2{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10px;
+    justify-content: flex-end;
+    flex-shrink: 1}
+    
+    .datewords{
+    display:inline-flex;
+    flex-direction: row;
+    min-width: 40px;
+    justify-content: space-between;
+    padding-top: 0px;
+    flex-shrink: 1}
+    
+    .spaces22{display:none}
+    .spaces23{display:none}
+    .spaces24{display:block}
+    
+    .largedugs{
+        width: 370px;
+        height:auto;
+        
+    }
+                                        }
+
+
+ @media only screen and (min-width: 768px){
+    
+    .title1{
+    width: 1000px;
+    text-align: left; 
+    display:block;
+    background-color: #333333;
+    color:white;
+    font-size: 20px;}
+     
+    .title2{
+    float: right;
+    text-align: right; 
+    display:block;
+    background-color: #333333;
+    color:white;
+    width: 100%;
+    font-size: 15px;}
+     
+    /*.flexresume2{
+    justify-content: space-evenly;
+     width: 80%;}*/
+
+     
+     .spaces24{display:none}
+     .spaces23{display: block} }
+    
+    .flexresume2{
+        
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+
+    
+/*-------------------------*/
+    
 
 .largedug{
     display: flex;
@@ -271,8 +560,8 @@ justify-content: space-evenly;}
 /*.serv{
     display: flex;
     flex-direction: row;
-    justify-content:space-around 
-} */
+    justify-content:space-around */
+} 
 
 .header2{
     color:white;
@@ -309,7 +598,9 @@ justify-content: space-evenly;}
     margin: 0 auto;
     max-width: 700px;}
 
-/*------------Documentation-------------------*/
+/*-----------------------*/
+
+
 
 .icon{
     max-width: 300px;
@@ -341,51 +632,7 @@ hr{
     width: 85%;
     height: 2px;}
 
-/*-----------Footer--------------------------*/
-
-.footer{
-    color: white;
-    display: flex;
-    flex-direction: row;
-    font-size: 30px;
-    justify-content: space-evenly;
-    padding-top: 40px;
-    text-align: right;
-    padding-bottom: 20px;}
-
-.moreinfo{
-    
-}
-
-.phone1{
-    
-}
-
-.phone2{
-    font-size: 25px;
-}
-
-.morespace{
-    height: 10000px;
-}
-
-.theend{
-    color:white;
-    margin: 0 auto;
-    text-align: center;
-}
-
-
-/* ------------change from large to small screen section ---------------------------------*/
-
 @media only screen and (max-width: 768px){
-    .parent{
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        flex-shrink: 1}  
-    .top{
-        width: 100%;}
     
     .docimg{
         max-width: 300px;
@@ -419,119 +666,45 @@ hr{
     padding-top: 20px;
     }
                                          }
-   
-    
 
 
-@media only screen and (max-width: 450px){
-    .parentcon{
-    border: 2px solid #d3d3d3;
-    color:white;
-    display: flex;
-    flex-direction: column;
-    flex-shrink: 1;
-    text-align: center;
-    justify-content: space-evenly;}
-    
-    .flexdate1{
-        margin-right: 0%;
-        font-size: 15px;
-        min-width: 20%;
-        margin-left:0%}
-    .datewords{
-        width:350px;}
-    .flexresume2{
-        padding-bottom: 15px;}
-    
-    .footer{
+
+
+
+/*____________Flash Cards_______________*/
+
+.FlashCards {
+    font-size: 35px;
+    padding-top: 1.5%;
     color: white;
-    font-size: 15px;
-    display: flex;
-    flex-direction:row;
-    justify-content: space-evenly;
-    padding-bottom: 50px;
-    padding-top: 5px;}
-    
-    .phone2{
-    font-size: 10px;}
-    
-     .docsections{
-    margin-left: 0;
-    margin-right: 0%;}
-    
-    .icon{
-    max-width: 200 px;
-    max-height: 200 px;}
-    
-    
-    
-    
-                                       }
-
-@media only screen and (max-width:768px){
-    .flexresume2{
-    color:white;
-    display: flex;
-    flex-direction: column;
-    padding-bottom: 10px;
-    justify-content: flex-end;
-    flex-shrink: 1}
-    
-    .datewords{
-    display:inline-flex;
-    flex-direction: row;
-    min-width: 40px;
-    justify-content: space-between;
-    padding-top: 0px;
-    flex-shrink: 1}
-    
-    .spaces22{display:none}
-    .spaces23{display:none}
-    .spaces24{display:block}
-    
-    .largedugs{
-        width: 370px;
-        height:auto;
-        
-    
-    }
-                                        }
-
-
- @media only screen and (min-width: 768px){
-    
-    .title1{
-    width: 1000px;
-    text-align: left; 
-    display:block;
-    background-color: #333333;
-    color:white;
-    font-size: 20px;}
-     
-    .title2{
-    float: right;
-    text-align: right; 
-    display:block;
-    background-color: #333333;
-    color:white;
-    width: 100%;
-    font-size: 15px;}
-     
-    .flexresume2{
-    justify-content: space-evenly;}
-     
-     .spaces24{display:none}
-     .spaces23{display: block}
-                                           }
-
-
-
-.everything1{
-    margin: 2.5%;
+    text-align: center;
 }
 
-/*-----For Seperate pages-------*/
+.flash_bio {
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
 
 
+.flashcard {
+  color: white;
+  max-width: 800px;
+  font-size: 30px;
+  margin: 5% auto;
+  border: 1px solid #ccc;
+  padding: 20px;
+  text-align: center;
+}
 
- 
+#definition {
+  display: none;
+  margin-top: 10px;
+}
+
+
+#nextButton {
+    
+}
+
+#answerButton

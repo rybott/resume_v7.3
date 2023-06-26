@@ -1,0 +1,537 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+{ 
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+    
+}
+    
+----------------------------------------------------------------------------
+
+
+section{}
+div{}
+h2{}
+
+.header{
+    color:white;
+    background-color: #333333;
+    text-align:center;
+    font-size:50px;
+    margin-top: 40px;
+    border: 4px solid #d3d3d3}
+
+
+/* ---------------------------Top Intro Section----------------------------------------*/
+
+.top{background-color: #333333; width: 100%;}
+
+.title1{
+    display:none;
+}
+
+
+.title2{
+    display:none;
+}
+
+
+.filler{
+    height: 50px;
+    color:#1F1F1F;
+    background-color: #1f1f1f;}
+
+.face{
+    height:400px;
+    width: 400px;
+    border-radius: 200px;}
+    
+
+
+.parent{
+    display: flex;
+    max-width: 800px;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: space-between;}
+
+
+
+.title3{
+    font-size: 45px;
+    color:white;
+    maring-top: 10px;
+    margin-bottom: 0px;}
+
+.bio{
+    font-size: 20px;
+    margin-top: 10px;
+    color:white;}
+
+/* ---------------------------contact section-----------------------------*/
+
+.teleemail{
+    font-size:30px;}
+.numadd{
+   font-size:20px;}
+
+
+
+
+.parentcon{
+    border: 2px solid #d3d3d3;
+    color:white;
+    display: flex;
+    flex-shrink: 1;
+    text-align: center;
+justify-content: space-evenly;}
+    
+
+
+/*-------------Attempt 3 at the resume section--------*/
+
+.worktitle{
+    font-size: 50px;}
+.flexdate1{
+    margin-right: 1%;
+    font-size: 20px;}
+    flex-shrink:1;
+
+.workwordsflex1{
+    max-width: 350px;
+    padding-right:10%}
+
+.workwordstitle   {font-size:30px;}
+.workwordslocal    {font-size:15;}
+.workwordsdescript   {font-size:20px;}
+
+.flexresume2{
+    color:white;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 30px;
+    justify-content: space-between;
+    width: 100%;
+    flex-shrink: 1}
+
+.datewords{
+    display:inline-flex;
+    flex-direction: row;
+    width: 500px;
+    justify-content: space-between;
+    padding-top: 40px;
+    flex-grow: 1
+    padding-left:20%}
+
+.datewords1{
+    display:inline-flex;
+    flex-direction: row;
+    width: 500px;
+    justify-content: space-between;
+    padding-top: 40px;
+    flex-grow: 1
+    padding-left:20%}
+
+.worktitle{
+    font-size: 50px;
+    padding-top:40px;}
+.worktitle1{
+    font-size: 50px;
+    color: #1f1f1f;}
+
+
+
+.workwordsflex1{
+    max-width: 350px;}
+.workwordstitle   {font-size:30px;}
+.workwordslocal    {font-size:15;}
+.workwordsdescript   {font-size:20px;}
+
+.empty1{
+    font-size:50px;
+    color:#1f1f1f;}
+.spaces22{
+    display: block;
+    color: #1f1f1f;}
+.spaces23{
+    display:block;
+    font-size: 49px;}
+.flexdate2{
+    color: #1f1f1f;
+    font-size: 49px;}
+
+/*-------------------Service Section-------------------------------*/
+
+
+.largedug{
+    display: flex;
+    justify-content: center;
+}
+.largedugs{   
+    max-width: 100%;
+    height: auto;}
+
+/*.serv{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around 
+} */
+
+.header2{
+    color:white;
+    background-color: #333333;
+    font-size:50px;
+    margin-top: 40px;
+    border: 4px solid #d3d3d3}
+
+.workingimg{
+    max-width: 400px;}
+
+.worktitle3{
+    color:white;
+    font-size: 50px;
+    padding-top:40px;}
+
+.worktitle4{
+    color:white;
+    font-size: 50px;}
+
+.servicewords1{
+    padding-top: 20px;
+    font-size: 25px;
+    color: white;}
+
+.eagle{
+    display: flex;
+    flex-direction: column;
+    max-width: 700px;}
+
+.eagle{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 700px;}
+
+/*------------Documentation-------------------*/
+
+.icon{
+    max-width: 300px;
+    max-height: 300px;}
+
+.docsections{
+    margin: 5%;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: row;
+    flex-shrink: 1;
+    justify-content: space-evenly;}
+
+.docname{
+    color:white;
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 40px;
+    padding-top: 20px}
+
+.docname1{
+    color:white;
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 0px;
+    padding-top: 20px}
+hr{
+    color: solid white;
+    width: 85%;
+    height: 2px;}
+
+/*-----------Footer--------------------------*/
+
+.footer{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    justify-content: space-evenly;
+    padding-top: 40px;
+    text-align: right;
+    padding-bottom: 20px;}
+
+.moreinfo{
+    
+}
+
+.phone1{
+    
+}
+
+.phone2{
+    font-size: 25px;
+}
+
+.morespace{
+    height: 10000px;
+}
+
+.theend{
+    color:white;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+/* ------------change from large to small screen section ---------------------------------*/
+
+@media only screen and (max-width: 768px){
+    .parent{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        flex-shrink: 1}  
+    .top{
+        width: 100%;}
+    
+    .docimg{
+        max-width: 300px;
+        margin: 0 auto;
+    }
+    
+    .icon{
+        max-width: 300 px;
+        max-height: 300 px;}
+    
+    .docsections{
+    margin-left: 9%;
+    margin-right: 9%;
+    flex-direction: column;
+    flex-shrink: 1;
+    padding: 40px;
+    justify-content: space-evenly;
+    max-height: 4000px; }
+    
+    .docname{
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 40px;
+    padding-top: 20px;
+    }
+    
+    .docname1{
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 0px;
+    padding-top: 20px;
+    }
+                                         }
+   
+    
+
+
+@media only screen and (max-width: 450px){
+    .parentcon{
+    border: 2px solid #d3d3d3;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 1;
+    text-align: center;
+    justify-content: space-evenly;}
+    
+    .flexdate1{
+        margin-right: 0%;
+        font-size: 15px;
+        min-width: 20%;
+        margin-left:0%}
+    .datewords{
+        width:350px;}
+    .flexresume2{
+        padding-bottom: 15px;}
+    
+    .footer{
+    color: white;
+    font-size: 15px;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+    padding-bottom: 50px;
+    padding-top: 5px;}
+    
+    .phone2{
+    font-size: 10px;}
+    
+     .docsections{
+    margin-left: 0;
+    margin-right: 0%;}
+    
+    .icon{
+    max-width: 200 px;
+    max-height: 200 px;}
+    
+    
+    
+    
+                                       }
+
+@media only screen and (max-width:768px){
+    .flexresume2{
+    color:white;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10px;
+    justify-content: flex-end;
+    flex-shrink: 1}
+    
+    .datewords{
+    display:inline-flex;
+    flex-direction: row;
+    min-width: 40px;
+    justify-content: space-between;
+    padding-top: 0px;
+    flex-shrink: 1}
+    
+    .spaces22{display:none}
+    .spaces23{display:none}
+    .spaces24{display:block}
+    
+    .largedugs{
+        width: 370px;
+        height:auto;
+        
+    
+    }
+                                        }
+
+
+ @media only screen and (min-width: 768px){
+    
+    .title1{
+    width: 1000px;
+    text-align: left; 
+    display:block;
+    background-color: #333333;
+    color:white;
+    font-size: 20px;}
+     
+    .title2{
+    float: right;
+    text-align: right; 
+    display:block;
+    background-color: #333333;
+    color:white;
+    width: 100%;
+    font-size: 15px;}
+     
+    .flexresume2{
+    justify-content: space-evenly;}
+     
+     .spaces24{display:none}
+     .spaces23{display: block}
+                                           }
+
+
+
+.everything1{
+    margin: 2.5%;
+}
+
+/*-----For Seperate pages-------*/
+
+
+
+ 
