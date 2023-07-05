@@ -359,6 +359,9 @@ p{margin: .5%;}
 
 
 
+    
+    
+    
 
 .worktitle{
     font-size: 50px;}
@@ -437,7 +440,7 @@ p{margin: .5%;}
 
 
 
-
+/*
 
 @media only screen and (max-width: 768px){
     
@@ -486,7 +489,7 @@ p{margin: .5%;}
     .datewords{
         width:350px;}
     .flexresume2{
-        padding-bottom: 15px;}
+        padding-bottom: 15px;} 
     
     
     .phone2{
@@ -505,7 +508,7 @@ p{margin: .5%;}
     flex-direction: column;
     padding-bottom: 10px;
     justify-content: flex-end;
-    flex-shrink: 1}
+    flex-shrink: 1} 
     
     .datewords{
     display:inline-flex;
@@ -525,7 +528,7 @@ p{margin: .5%;}
         
     }
                                         }
-
+*/
 
  @media only screen and (min-width: 768px){
     
@@ -554,7 +557,7 @@ p{margin: .5%;}
      .spaces24{display:none}
      .spaces23{display: block} }
     
-    .flexresume2{
+   /* .flexresume2{
         
         margin-left: 20%;
         margin-right: 20%;
