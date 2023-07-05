@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Snake Game</title>
+</head>
+<body>
+    <h1>Snake Game</h1>
+    <div id="game-board"></div>
+    <div id="score-board">
+        <span>Current Score: <span id="current-score">0</span></span>
+        <span>All-time High Score: <span id="high-score">0</span></span>
+    </div>
+    <div class="control-buttons">
+        <div class="control-button" id="up-button">&#8593;</div>
+        <div class="control-button" id="left-button">&#8592;</div>
+        <div class="control-button" id="down-button">&#8595;</div>
+        <div class="control-button" id="right-button">&#8594;</div>
+    </div>
+    <script>
+        // Game logic
+        var boardSize = 15;
+        var tileSize = 20;
+        var snake = [{x: 7, y: 7}];
+        var food = {x: 10, y: 10};
+        var direction = {x: 0, y: 0};
+        var currentScore = 0;
+        var highScore = 0;
+        
+        function update() {
+            // Update snake position
+            var head = {x: snake[0].x + direction.x, y: snake[0].y + direction.y};
+            snake.unshift(head);
+            
+            // Check collision with food
+            if (head.x === food.x && head.y === food.y) {
+                // Generate new food position
+                food.x = Math.floor(Math.random() * boardSize);
+                food.y = Math.floor(Math.random() * boardSize);
+                
+                // Update current score
+                currentScore++;
+                document.getElementById('current-score').textContent = currentScore;
+                
+                // Update high score
+                if (currentScore > highScore) {
+                    highScore = currentScore;
+                    document.getElementById('high-score').textContent = highScore;
+                }
+            } else {
+                snake.pop(); // Remove tail segment
+            }
+            
+            // Check collision with walls
+            if (head.x < 0 || head.x >= boardSize || head.y < 0 || head.y >= boardSize) {
+                gameOver();
+                return;
+            }
+            
+            // Check collision with self
+            for (var i = 1; i < snake.length; i++) {
+                if (head.x === snake[i].x && head.y === snake[i].y) {
+                    gameOver();
+                    return;
+                }
+            }
+            
+            draw();
+        }
+        
+        function draw() {
+            var gameBoard = document.getElementById('game-board');
+            gameBoard.innerHTML = '';
+            
+            // Draw snake
+            snake.forEach(function(segment) {
+                var snakeElement = document.createElement('div');
+                snakeElement.className = 'snake';
+                snakeElement.style.left = (segment.x * tileSize) + 'px';
+                snakeElement.style.top = (segment.y * tileSize) + 'px';
+                gameBoard.appendChild(snakeElement);
+            });
+            
+            // Draw food
+            var foodElement = document.createElement('div');
+            foodElement.className = 'food';
+            foodElement.style.left = (food.x * tileSize) + 'px';
+            foodElement.style.top = (food.y * tileSize) + 'px';
+            gameBoard.appendChild(foodElement);
+        }
+        
+        function gameOver() {
+            alert('Game Over!');
+            snake = [{x: 7, y: 7}];
+            direction = {x: 0, y: 0};
+            food = {x: 10, y: 10};
+            currentScore = 0;
+            document.getElementById('current-score').textContent = currentScore;
+            draw();
+        }
+        
+        function handleKeyPress(event) {
+            var key = event.keyCode;
+            
+            // Arrow keys
+            if (key === 37 && direction.x !== 1) {
+                direction = {x: -1, y: 0}; // Left
+            } else if (key === 38 && direction.y !== 1) {
+                direction = {x: 0, y: -1}; // Up
+            } else if (key === 39 && direction.x !== -1) {
+                direction = {x: 1, y: 0}; // Right
+            } else if (key === 40 && direction.y !== -1) {
+                direction = {x: 0, y: 1}; // Down
+            }
+        }
+        
+        function handleButtonClick(buttonId) {
+            switch (buttonId) {
+                case 'up-button':
+                    direction = {x: 0, y: -1};
+                    break;
+                case 'left-button':
+                    direction = {x: -1, y: 0};
+                    break;
+                case 'down-button':
+                    direction = {x: 0, y: 1};
+                    break;
+                case 'right-button':
+                    direction = {x: 1, y: 0};
+                    break;
+            }
+        }
+        
+        // Start the game
+        draw();
+        setInterval(update, 200);
+        document.addEventListener('keydown', handleKeyPress);
+        
+        // Add event listeners to control buttons
+        var controlButtons = document.getElementsByClassName('control-button');
+        for (var i = 0; i < controlButtons.length; i++) {
+            controlButtons[i].addEventListener('click', function(event) {
+                var buttonId = event.target.id;
+                handleButtonClick(buttonId);
+            });
+        }
+    </script>
+</body>
+</html>
