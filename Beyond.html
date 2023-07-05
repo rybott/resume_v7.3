@@ -956,8 +956,14 @@
             controlButtons[i].addEventListener('click', function(event) {
                 var buttonId = event.target.id;
                 handleButtonClick(buttonId);
-            });
-        }
+            });}
+            
+        var controlButtons2 = document.getElementsByClassName('leftright');
+        for (var i = 0; i < controlButtons2.length; i++) {
+            controlButtons2[i].addEventListener('click', function(event) {
+                var buttonId = event.target.id;
+                handleButtonClick(buttonId);
+            }); }
     </script>    
       
       
