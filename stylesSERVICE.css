@@ -116,117 +116,74 @@ p{margin: .5%;}
 
 
 /*-----------------------------------------------------------------------------*/
-/*Resume Section*/
+/*Service*/
 
-.resume{
-    margin: auto;
+
+.eagle{
+    display: flex;
+    flex-direction: column;
+    max-width: 700px;}
+
+.eagle{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 700px;}
+
+.worktitle3{
+    color:white;
+    font-size: 50px;
+    padding-top:40px;}
+
+
+.worktitle4{
+    color:white;
+    font-size: 50px;}
+
+
+.servicewords1{
+    padding-top: 20px;
+    font-size: 25px;
+    color: white;}
+
+.servicewords2{
+    padding-top: 20px;
+    padding-bottom: 50px;
+    font-size: 25px;
+    color: white;}
+
+.largedug{
+    display: flex;
+    justify-content: center;
+}
+.largedugs{   
+    max-width: 100%;
+    height: auto;}
+
+
+@media only screen and (max-width: 710px){
+    .largedugs{
+        max-width: 90%}
+    .servicewords1{
+        padding-left: 5%;
+        padding-right: 5%;}
+    .servicewords2{
+        padding-left: 5%;
+        padding-right: 5%;}
 }
 
 
 
-/*---------Each Work Box--------*/
-.flexresume2{
-    color: white;
-    display: flex;
-    flex-direction: row;
-    padding-bottom: 30px;
-    justify-content: space-evenly;
-    flex-shrink: 1}
 
-@media only screen and (max-width: 450px){
-    .flexresume2{
-        padding-bottom: 15px;}}
 
-@media only screen and (max-width:768px){
-    .flexresume2{
-    display: flex;
-    flex-direction: column;
-    padding-bottom: 10px;
-    justify-content: flex-end;
-    flex-shrink: 1}}
 
-/*---------Work Titles--------*/
 
-.worktitle{
-    font-size: 50px;
-    padding-top:40px;}
-.worktitle1{
-    font-size: 50px;
-    color: #242424;}
 
-@media only screen and (max-width:768px){
-    .worktitle1{
-        font-size: 25px;
-    }
-    
-    .worktitle{
-        padding-bottom: 20px;
-    }}
-/*---------Work Dates include date and b--------*/
 
-.datewords{
-    display:inline-flex;
-    flex-direction: row;
-    width: 500px;
-    justify-content: space-between;
-    padding-top: 40px;
-    flex-grow: 1
-    padding-left:20%}
 
-@media only screen and (max-width:768px){
-    .datewords{
-    display:inline-flex;
-    flex-direction: row;
-    min-width: 40px;
-    justify-content: space-between;
-    padding-top: 0px;
-    flex-shrink: 1}}
 
-@media only screen and (max-width: 450px){
-    .datewords{
-        width:350px;}}
 
-/*-------Flex Date includes date------*/
 
-.flexdate1{
-    margin-right: 1%;
-    font-size: 20px;}
-    flex-shrink:1;
-.flexdate3{
-    color: #242424;
-    font-size: 49px;}
 
-	@media only screen and (max-width: 450px){
-    .flexdate1{
-        margin-right: 0%;
-        font-size: 15px;
-        min-width: 20%;
-        margin-left:0%}}
- 
 
-/*--Work words = title, loc, descript---*/
 
-.workwordsflex1{
-    max-width: 350px;
-    padding-right:10%}
-.workwordstitle   {font-size:30px;}
-.workwordslocal    {font-size:15;}
-.workwordsdescript   {font-size:20px;}
-
-/*--Spaces, to make it easier ---*/
-
-.spaces22{
-    display: block;
-    color: #242424;}
-.spaces23{
-    display:block;
-    font-size: 49px;}
-
-@media only screen and (max-width:768px){
-    .spaces22{display:none}
-    .spaces23{display:none}
-    .spaces24{display:block}}
-
-@media only screen and (min-width: 768px){
-     .spaces24{display:none}
-     .spaces23{display: block}}

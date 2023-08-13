@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Portfolio</title>
+    <link rel="stylesheet" href="prismcssbetter.css">
     <link rel="stylesheet" href="stylesCONTACT.css">
   </head>
   <body style= "background-color: #242424" >
@@ -24,12 +25,27 @@
         </div>
         </div>  
         
+          
      </section>
       
           <div class="header" style="margin-top: 0px;">  Contact me </div>
+
+
       
-     
       
+      <p>Sup Dog</p>
+        <pre style="width: 80%; margin: auto;">
+        <code class="language-sql" style="width: 80%;">
+            SELECT [_PowerBI_wComplaintID].*, dbo_Hearings.HearingResult, dbo_Hearings.HearingType, dbo_Dispositions.IdForDisposition
+            FROM dbo_Dispositions RIGHT JOIN (dbo_Hearings INNER JOIN _PowerBI_wComplaintID 
+            ON dbo_Hearings.IdForComplaint = [_PowerBI_wComplaintID].IdForComplaint) 
+            ON dbo_Dispositions.IdForComplaint = [_PowerBI_wComplaintID].IdForComplaint
+            WHERE (((dbo_Hearings.HearingResult)=64) AND ((dbo_Dispositions.IdForDisposition) Is Null));
+        </code>
+        </pre>
       
-      
+    
+    <script src="prismbetter.js"> </script>
+   
     </body>
+</html>

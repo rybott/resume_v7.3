@@ -7,87 +7,7 @@
     <script src="application/javascript; version=1.7s"></script>
     <script src="script.js"></script>
     <title>Portfolio</title>
-    <style>
-      #game-board {
-            text-align: center;
-            position: relative;
-            width: 300px;
-            height: 300px;
-            background-color: #ccc;
-        }
-        
-        .snake {
-            position: absolute;
-            width: 20px;
-            height: 20px;
-            background-color: green;
-        }
-        
-        .food {
-            position: absolute;
-            width: 20px;
-            height: 20px;
-            background-color: red;
-        }
-        
-        #score-board {
-            margin-top: 20px;
-            display: flex;
-            justify-content: space-between;
-        }
-        
-        #score-board span {
-            margin: auto;
-            color: white;
-            font-size: 22px;
-            font-weight: bold;
-        }
-        
-        .control-buttons {
-            color: white;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            margin-top: 20px;
-        }
-        
-        .control-button {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            width: 40px;
-            height: 40px;
-            border: 1px solid #000;
-            margin: 5px;
-            font-size: 16px;
-            cursor: pointer;
-            user-select: none;
-        
-        }
-            
-        .controlbutton {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            width: 40px;
-            height: 40px;
-            border: 1px solid #000;
-            margin: 5px;
-            font-size: 16px;
-            cursor: pointer;
-            user-select: none;
-        
-        }  
-            
-        
-        .leftright{
-            display: flex;
-        }
-            
-            
-        </style>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="stylesBEYOND.css">
   </head>
   <body style= "background-color: #242424" onlond= "getRandomTerm()">
     
@@ -134,7 +54,6 @@
         { term: "When?" , definition: "¿Cuándo?" },
         { term: "How?" , definition: "¿Cómo?" },
         { term: "Who?" , definition: "¿Quién?" },
-
         { term: "ochenta" , definition: "80" },
         { term: "treinta" , definition: "30" },
         { term: "trescientos" , definition: "300" },
@@ -769,7 +688,19 @@
         { term: "Vivo en la cuidad durante la escuela" , definition: "I dorm in the city during school" },
         { term: "Quiero mi propia firma de contabilidad" , definition: "I want my own accounting firm" },
         { term: "tu casa es hermosa" , definition: "your house is beautiful" },
-        { term: "apuñalar" , definition: "to stab"}
+        { term: "apuñalar" , definition: "to stab"},
+        { term: "¿Qué tal?" , definition: "What's up "},  
+        { term: "" , definition: ""}, 
+        { term: "" , definition: ""}, 
+        { term: "" , definition: ""}, 
+        { term: "" , definition: ""}, 
+        { term: "" , definition: ""}, 
+        { term: "" , definition: ""}, 
+        { term: "" , definition: ""}, 
+        { term: "" , definition: ""}, 
+        { term: "" , definition: ""}, 
+        
+
 
       // Add more terms and definitions as needed
     ];
@@ -816,7 +747,8 @@
   </script>
 
       
-   <h1 style="color: white; text-align: center;">Snake Game</h1>
+   <div class= "FlashCards">Snake Game</div>
+    <div class= "flash_bio">- Created by ChatGPT - <br>Learning search optimization for AI </div>
     <div id="score-board">
         <span>Current Score: <span id="current-score">0</span></span>
         <span>All-time High Score: <span id="high-score">0</span></span>

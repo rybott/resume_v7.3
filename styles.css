@@ -605,6 +605,12 @@ p{margin: .5%;}
     font-size: 25px;
     color: white;}
 
+.servicewords2{
+    padding-top: 20px;
+    padding-bottom: 50px;
+    font-size: 25px;
+    color: white;}
+
 .eagle{
     display: flex;
     flex-direction: column;
