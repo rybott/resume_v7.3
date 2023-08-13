@@ -42,8 +42,26 @@ h2 {
 }
 
 .title p {
-    color: #0d71fc;
+    color: #fff;
     font-size: 1.3em;
+    letter-spacing: 2px;
+}
+
+.larger {
+    font-size: 1.3em;
+}
+
+.blank {
+    opacity: 0%;
+}
+
+.titlesub {
+    margin: .25em;
+    font-size: 2.1em;
+}
+.biosub {
+    color: #fff;
+    font-size: .9em;
     letter-spacing: 2px;
 }
 
@@ -105,7 +123,7 @@ h2 {
 .checkpoint:nth-child(even) div::before {
     content: '';
     background: #fff;
-    box-shadow: 0 0 0.5em #0d71fc;
+    box-shadow: 0 0 0.5em #fff;
     width: 0.8em;
     height: 0.8em;
     position: absolute;
@@ -147,5 +165,12 @@ h2 {
         top: -.5em;
         left: 50%;
         transform: translateX(-50%)
+    }
+
+    .biosub {
+        color: #fff;
+        font-size: .9em;
+        letter-spacing: 2px;
+        padding-bottom: 1.7em;
     }
 }
