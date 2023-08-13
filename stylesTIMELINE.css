@@ -1,4 +1,4 @@
-body {
+.all_timeline {
     margin: 0;
     font-family: sans-serif;
     /*
@@ -9,22 +9,15 @@ body {
     */
     color: white;
     padding: 2em;
+    margin: auto auto;
+    width: 95%;
 }
-body::before {
-    content: '';
-    background: rgba(0,0,0, .7);
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
-    position: fixed;
+
+.timeline {
+    margin-top: 0%;
 }
-* {
-    margin: 0;
-    padding: 0;
-}
+
+
 h1 {
     margin: .3em;
     font-size: 3em;
@@ -45,6 +38,16 @@ h2 {
 }
 .blank {
     opacity: 0%;
+}
+.titlesub1 {
+    margin: .25em;
+    font-size: 2.1em;
+}
+.biosub1 {
+    color: #fff;
+    font-size: .9em;
+    letter-spacing: 2px;
+    padding-bottom: 0%;
 }
 .titlesub {
     margin: .25em;
@@ -120,7 +123,7 @@ h2 {
 }
 @media screen and (max-width: 1150px) {
     .timeline{
-        width: 80vm;
+        width: 80em;
     }
     .timeline .checkpoint {
         width: 100%;

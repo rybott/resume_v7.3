@@ -22,7 +22,7 @@ h2{}
     display: flex;
     text-decoration: none !important;
     justify-content:space-between;
-    padding-bottom: 30px;}
+    padding-bottom: 34px;}
 
 .siempre{
     display: flex;
@@ -124,6 +124,19 @@ p{margin: .5%;}
     display: grid;
     grid-template-columns: 1fr 5fr;}
 
+@media only screen and (max-width: 400px){
+    .row{
+        grid-template-columns: 1fr;
+    }
+    .mininavbar{
+        display: none;
+    }
+    .column2{
+        height: 500px;
+        width: 100%;
+    }
+}
+
 .column1{
     background-color: #050505;
     text-align: center;}
@@ -136,7 +149,7 @@ p{margin: .5%;}
     padding: 2%;
     padding-top: 5%;
     padding-bottom: 0%;
-    height: 15%;
+    height: 10%;
     width: auto;
     border-radius: 50%;
     text-align: center;}
@@ -173,7 +186,7 @@ p{margin: .5%;}
 
 
 .title3{
-    font-size: 45px;
+    font-size: 60px;
     padding: 10%;
     padding-top: 0%;
     padding-bottom: 0%;
