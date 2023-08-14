@@ -10,7 +10,6 @@
     color: white;
     padding: 2em;
     margin: auto auto;
-    width: 95%;
 }
 
 .timeline {
@@ -21,17 +20,25 @@
 h1 {
     margin: .3em;
     font-size: 3em;
+    color: #fff;
+    font-family: sans-serif;
 }
 h2 {
     margin-bottom: .5em;
+    color: #fff;
+    font-family: sans-serif;
 }
 .title {
     text-align: center;
+    color: #fff;
+    font-family: sans-serif;
 }
 .title p {
     color: #fff;
     font-size: 1.3em;
     letter-spacing: 2px;
+    color: #fff;
+    font-family: sans-serif;
 }
 .larger {
     font-size: 1.3em;
@@ -42,16 +49,22 @@ h2 {
 .titlesub1 {
     margin: .25em;
     font-size: 2.1em;
+    color: #fff;
+    font-family: sans-serif;
 }
 .biosub1 {
     color: #fff;
     font-size: .9em;
     letter-spacing: 2px;
     padding-bottom: 0%;
+    color: #fff;
+    font-family: sans-serif;
 }
 .titlesub {
     margin: .25em;
     font-size: 2.1em;
+    color: #fff;
+    font-family: sans-serif;
 }
 .biosub {
     color: #fff;
@@ -66,21 +79,34 @@ h2 {
     max-width: 34em;
     padding-top: 2em;
     padding-bottom: 2em;
-    position: relative;
+    position: relative;}
+@media screen and (max-width: 1150px) {
+    .checkpoint {
+        max-width: 350px;
+        margin-right: 0%;
+    }
+    .title {
+        width: auto;
+    }
 }
+
 .checkpoint div {
     border: 2px solid #888;
     border-radius: 1em;
     padding: 1.5em;
+    color: #fff;
+    font-family: sans-serif;
 }
 .checkpoint p {
     line-height: 27px;
     color: #ccc;
+    color: #fff;
+    font-family: sans-serif;
 }
 .checkpoint:nth-child(odd) {
     border-left: 3px solid #888;
     padding-left: 3em;
-    transform: translateX(16.85em);
+    transform: translateX(16.81em);
 }
 .checkpoint:nth-child(even) {
     border-right: 3px solid #888;
@@ -121,6 +147,7 @@ h2 {
 .checkpoint:nth-child(even) div::before{
     right: -0.5em;
 }
+
 @media screen and (max-width: 1150px) {
     .timeline{
         width: 80em;
@@ -150,4 +177,8 @@ h2 {
         letter-spacing: 2px;
         padding-bottom: 1.7em;
     }
+} 
+
+.timeline_section{
+    margin: auto;
 }

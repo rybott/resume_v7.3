@@ -196,7 +196,7 @@ p{margin: .5%;}
 .bio{
     font-size: 25px;
     margin-top: 10px;
-    width: 60%;
+    max-width: 40%;
     margin: auto;
     color: white;}
 
