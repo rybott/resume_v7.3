@@ -128,7 +128,7 @@ a{  color: white;
     
 .column2{ 
     width: 80%;
-    background-color: #242424;}
+    background-color: #c9c9c9;}
 
 .flex-face{
     display: flex;
@@ -138,6 +138,7 @@ a{  color: white;
     margin: 1em;
     max-height: 10%;
     width: auto;
+    border-radius: 50%;
     text-align: center;}
 
 .FaceText{
@@ -161,8 +162,50 @@ a{  color: white;
 
 .socials{
     flex-shrink: 1;
-    margin: 5%;
+    margin: 5%;}
+
+
+ 
+.mininavbar{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: #000;
+    margin:auto;
+    padding: 1%;
 }
+    
+.mininav{
+    text-align: center;
+    padding: auto;
+    font-size: 25px;
+    border-style: none;
+    border-width: medium;
+    border-color: #000;
+    color: white;
+}
+
+.homebody{
+    text-align: left;
+    margin: auto;
+}
+
+.title3{
+    font-size: 60px;
+    padding: 10%;
+    padding-top: 2%;
+    padding-bottom: 0%;
+    text-shadow: 1px 1px 1px #0f0f0f;
+    color: #000;}
+
+.bio{
+    font-size: 25px;
+    padding-top: 2%;
+    max-width: 70%;
+    margin: auto;
+    color: #000;
+}
+
+    
 
 @media only screen and (max-width: 450px){
 
@@ -194,5 +237,20 @@ a{  color: white;
         border-radius: 10% ;
         margin: auto;
         justify-content: center;}
+
+    .mininav{
+        display: none;}
+
+    .title3{
+        display: none;}
+    
+    .bio{
+        font-size: 20px;
+        padding-top: 10%;
+        max-width: 90%;
+        margin: auto;
+        color: #000;
+    }
+
 }
 
