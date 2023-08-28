@@ -142,6 +142,12 @@ a{  color: white;
     text-align: center;}
 
 .FaceText{
+    
+    text-align: center;
+    font-size: 30px;}
+
+.FaceText1{
+    display: none;
     text-align: center;
     font-size: 30px;}
 
@@ -154,6 +160,7 @@ a{  color: white;
 
 .ConTitle{
     width: 80%;
+    font-family: sans-serif;
     margin: auto;
     font-size: 25px;
     margin-top: 10%;
@@ -161,8 +168,9 @@ a{  color: white;
     padding-bottom: 1%;}
 
 .socials{
+    font-family: sans-serif;
     flex-shrink: 1;
-    margin: 5%;}
+    margin: 3%}
 
 
  
@@ -178,14 +186,50 @@ a{  color: white;
     text-align: center;
     padding: auto;
     font-size: 25px;
-    border-style: none;
-    border-width: medium;
-    border-color: #000;
     color: white;
 }
 
 
 
+.homebody{
+    text-align: left;
+    margin: auto;
+}
+
+.title3{
+    font-size: 60px;
+    padding: 10%;
+    padding-top: 2%;
+    padding-bottom: 0%;
+    text-shadow: 1px 1px 1px #0f0f0f;
+    color: #000;}
+
+.bio{
+    font-size: 25px;
+    padding-top: 2%;
+    max-width: 70%;
+    margin: auto;
+    color: #000;
+}
+
+
+
+@media only screen and (max-width: 1000px){
+    .column1{
+        width: 40%;}
+    .column2{
+        width: 70%;}
+    .bio{
+        font-size: 20px;
+        max-width: 90%;}
+    .title3{
+        padding: 1%;
+        font-size: 45px;
+    }
+        
+    
+
+}
     
 
 @media only screen and (max-width: 450px){
@@ -198,13 +242,17 @@ a{  color: white;
         width: 100%;}
 
     .faceNew{
-        padding-left: 10%;
-        padding-right: 10%;
-        height: auto;
-        width: auto;
+        padding: 5%;
+        height: 45%;
+        width: 45%;
+        margin: auto;
         text-align: center;}
 
     .FaceText{
+        display: none;
+        margin-bottom: 40px;}
+    .FaceText1{
+        display: block;
         margin-bottom: 40px;}
 
     .ConTitle{
@@ -230,29 +278,8 @@ a{  color: white;
         padding-top: 10%;
         max-width: 90%;
         margin: auto;
-        color: #000;
-    }
+        color: #000;}
 
 }
 
 
-.homebody{
-    text-align: left;
-    margin: auto;
-}
-
-.title3{
-    font-size: 60px;
-    padding: 10%;
-    padding-top: 2%;
-    padding-bottom: 0%;
-    text-shadow: 1px 1px 1px #0f0f0f;
-    color: #000;}
-
-.bio{
-    font-size: 25px;
-    padding-top: 2%;
-    max-width: 70%;
-    margin: auto;
-    color: #000;
-}

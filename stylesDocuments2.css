@@ -1,66 +1,36 @@
+.Head {
+    color:#000;
+    text-align:center;
+    font-size:65px;
+    margin-top: 20px;
+    width: 100%}
 
 
-.icon{
-    max-width: 300px;
-    max-height: 300px;}
-
-.docsections{
-    margin: 5%;
-    padding-top: 100px;
+.docsection{
     display: flex;
     flex-direction: row;
-    flex-shrink: 1;
-    justify-content: space-evenly;}
+    justify-content: space-evenly;
+    margin: 5%;}
 
-.docname{
-    color:white;
-    font-size: 40px;
+.name{
     text-align: center;
-    padding-bottom: 40px;
-    padding-top: 20px}
+    font-size: xx-large;}
 
-.docname1{
-    color:white;
-    font-size: 40px;
-    text-align: center;
-    padding-bottom: 0px;
-    padding-top: 20px}
-hr{
-    color: solid white;
-    width: 85%;
-    height: 2px;}
 
 @media only screen and (max-width: 768px){
-    
-    .docimg{
-        max-width: 300px;
-        margin: 0 auto;
+    .docsection{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 5%;}
+    .img{
+        text-align: center;
     }
-    
-    .icon{
-        max-width: 300 px;
-        max-height: 300 px;}
-    
-    .docsections{
-    margin-left: 9%;
-    margin-right: 9%;
-    flex-direction: column;
-    flex-shrink: 1;
-    padding: 40px;
-    justify-content: space-evenly;
-    max-height: 4000px; }
-    
-    .docname{
-    font-size: 30px;
-    text-align: center;
-    padding-bottom: 40px;
-    padding-top: 20px;
-    }
-    
-    .docname1{
-    font-size: 30px;
-    text-align: center;
-    padding-bottom: 0px;
-    padding-top: 20px;
-    }
-                                         }
+
+
+}
+
+
+
+
+
