@@ -130,6 +130,10 @@ a{  color: white;
     width: 80%;
     background-color: #ebe5e5;}
 
+.column3{
+    display: none;
+}
+
 .flex-face{
     display: flex;
     flex-direction: column;}
@@ -237,6 +241,12 @@ a{  color: white;
     .row{
         flex-direction: column;}
     .column1{
+        display: none;}
+    .column3{
+        background-color: #000;
+        text-align: center;
+        color: #FFF;
+        display: block;
         width: 100%;}
     .column2{
         width: 100%;}
@@ -259,7 +269,7 @@ a{  color: white;
         text-align: center;}
 
     .contact{
-        padding: 5%;
+        padding: 1%;
         width: 100%;
         flex-direction: row;
         flex-wrap: wrap;
