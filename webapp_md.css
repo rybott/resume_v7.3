@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 40px;
+    color: #000000; /* Dark gray text color */
+}
+
+h1, h2, h3, h4, h5, h6 {
+    border-bottom: 1px solid #1a1919; /* Light gray border under headings */
+    padding-bottom: 8px;
+    margin-top: 24px;
+    margin-bottom: 16px;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 1.75em;
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+/* ... Continue for h4, h5, h6 if needed ... */
+
+p {
+    margin: 1em 0;
+    line-height: 2; /* Spacious line height for better readability */
+}
+
+/*
+a {
+    color: #0077cc; 
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+} */
+
+ul, ol {
+    margin-left: 2em;
+    margin-bottom: 1em;
+}
+
+code {
+    font-family: 'Courier New', monospace; /* A monospace font for code */
+    background-color: #f6f6f6; /* Light gray background */
+    padding: 2px 4px;
+    border-radius: 3px; 
+}
+
+pre {
+    background-color: #f6f6f6; /* Light gray background */
+    padding: 8px;
+    border-radius: 4px;
+    overflow-x: auto; /* Allow horizontal scrolling if code is too wide */
+}
+
+blockquote {
+    margin-left: 2em;
+    color: #777; /* Medium-light gray text color */
+    border-left: 4px solid #ddd; /* Light gray border to the left */
+    padding-left: 1em;
+}
+
+img {
+    max-width: 100%; /* Ensures images don't stretch beyond their container */
+}
